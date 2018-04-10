@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+p.titlebutton {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 37px;
+    color: #799dec;
+    text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.32), 0px 1px 0px #6182ca, 0px 2px 0px #4f6aa7, 0px 3px 0px #5470ad;
+  }
+p:hover {
+  opacity: 0.8;
+}
+
+table {
+  border-collapse: collapse;
+  width:80%;
+}
+th.t_top {
+    border-top: #be1309 4px solid;
+}
+th {
+  border-bottom: #e3e3e3 1px dotted;
+  text-align: left;
+  padding: 10px;
+  font-weight: normal;
+}
+td.t_top {
+  border-top: #b3b3b3 4px solid;
+}
+td {
+  border-bottom: #e3e3e3 1px dotted;
+  text-align: left;
+  padding: 10px;
+}
+tr:hover {
+    background: #3D80DF;
+    color: #FFFFFF;
+}
+
+input.input_name {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.square_btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+.square_btn:active {/*ボタンを押したとき*/
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+}
+
+select{
+    outline:none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    background: none transparent;
+    vertical-align: middle;
+    font-size: inherit;
+    color: inherit;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+}

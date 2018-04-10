@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head></head>
-<body>
-<h1>Hello world</h1>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<title>当番表</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+		<script src="js/main.js"></script>
+	</head>
+	<body>
+		<p class="titlebutton">今日の掃除当番　Go！</p>
+		<input type="checkbox" id="entry_all">All
+
+	  <table id="myentry">
+	    <tr><td><input type="checkbox" name="entry" id="id" class="list" value="Sato"></td><td>Sato</td><td></td></tr>
+			<tr><td><input type="checkbox" name="entry" id="id" class="list" value="Saito"></td><td>Saito</td><td></td></tr>
+			<tr><td><input type="checkbox" name="entry" id="id" class="list" value="Ogasawara"></td><td>Ogasawara</td><td></td></tr>
+			<tr><td><input type="checkbox" name="entry" id="id" class="list" value="Sakaida"></td><td>Sakaida</td><td></td></tr>
+			<tr><td><input type="checkbox" name="entry" id="id" class="list" value="Kojima"></td><td>Kojima</td><td></td></tr>
+	  </table>
+		<input type="text" class="input_name" id="new_entry" placeholder="追加するエントリーの名前を入力してください">
+		<input type="button" class="square_btn" id="add_btn" value="エントリー追加">
+		<input type="button" class="square_btn" id="delete_btn" value="エントリー削除">
+	</body>
 </html>
